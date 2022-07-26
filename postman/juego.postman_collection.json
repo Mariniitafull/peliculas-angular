@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "43929b8b-237c-4eb1-9f5d-6a8941ff9422",
+		"name": "juego",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Anfitrión - Modo activo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/anfitrion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"anfitrion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Anfitrión - Entrar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/entrar/paquito",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"entrar",
+						"paquito"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Anfitrión - Salir",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/salir/paquito",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"salir",
+						"paquito"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Anfitrión - Pelicula",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/pelicula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"pelicula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener película aleatoria",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/pelicula/aleatoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"pelicula",
+						"aleatoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener películas por paginación",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/peliculas?num=1&pagina=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"peliculas"
+					],
+					"query": [
+						{
+							"key": "num",
+							"value": "1"
+						},
+						{
+							"key": "pagina",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar películas por término",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/pelicula/buscar?termino=Marvel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"pelicula",
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termino",
+							"value": "Marvel"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
